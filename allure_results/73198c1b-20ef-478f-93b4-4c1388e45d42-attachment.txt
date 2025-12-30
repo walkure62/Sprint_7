@@ -1,0 +1,2 @@
+{'login': 'silvestr_94', 'password': 'tqdjilbbmj', 'firstName': 'Яков'}
+Курьер ID=677337 удален

@@ -1,0 +1,2 @@
+{'login': 'martin_80', 'password': 'bllpjfynun', 'firstName': 'Лора'}
+Курьер ID=677338 удален
