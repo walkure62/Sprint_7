@@ -1,0 +1,2 @@
+{'login': 'aleksandr_49', 'password': 'vqsklutbio', 'firstName': 'Феврония'}
+Курьер ID=677334 удален

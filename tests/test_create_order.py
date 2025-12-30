@@ -56,7 +56,7 @@ class TestCreateOrder:
         assert isinstance(json_response["track"], int)
         assert json_response["track"] > 0
     
-    @allure.description("При отсутствии обязательного поля отображается ошибка")      
+    @allure.description("При отсутствии обязательного поля отображается ошибка, заказ не создается")      
     @pytest.mark.parametrize("missing_field", [
         "firstName", "lastName", "address", "metroStation", 
         "phone", "rentTime", "deliveryDate"

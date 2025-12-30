@@ -1,11 +1,13 @@
+from api.courier_api import CourierApi
 class CourierData:
-    def get_login_password(courier_data, create_response):
-        data = courier_data
-
+    def get_login_password(courier_data, create_response = None):
+        if create_response == None:
+            create_response = CourierApi.create_courier(courier_data)
+        
         if create_response.status_code == 201:
             login_pass = {
-                "login": data['login'],
-                "password": data['password']
+                "login": courier_data['login'],
+                "password": courier_data['password']
             }
             return login_pass
         

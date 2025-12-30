@@ -1,0 +1,2 @@
+{'login': 'shashkovaanna', 'password': 'tghvkrsskn', 'firstName': 'Лучезар'}
+Курьер ID=677336 удален

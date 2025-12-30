@@ -1,0 +1,2 @@
+{'login': 'krilovapolina', 'password': 'fqpqmgbtap', 'firstName': 'Мария'}
+Курьер ID=677333 удален
